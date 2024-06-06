@@ -1,0 +1,3 @@
+<?php
+echo '<iframe src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/61555720037204/posts/pfbid02XTZ3KkHXMj49ZETUVnD4HM4rvxhDLfSMhSD6fCJPuNrmcfzQyiawhkVg2hzVheVul/&show_text=true&width="200" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> ';
+?>

@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.messenger-container {
+    max-width: 800px;
+    margin: 20px auto;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.messenger-header {
+    background-color: #4267B2;
+    color: #fff;
+    padding: 15px;
+    /*text-align: center; */
+}
+
+.messenger-header h1 {
+    margin: 0;
+}
+
+.messenger-chat {
+    padding: 20px;
+}
+
+.chat-messages {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-bottom: 10px;
+}
+
+.chat-messages p {
+    background-color: #e9e9e9;
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 8px;
+    max-width: 70%;
+    overflow: auto;
+}
+
+.chat-messages p.bot-message {
+    background-color: #ddeeff;
+    align-self: flex-start;
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: red;
+    cursor: not-allowed;
+}
+      /* Modal Styles */
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgba(0,0,0,0.4); 
+        }
+
+       
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            border-radius: 5px;
+            width: 80%;
+        }
+
+        /* Close Button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
